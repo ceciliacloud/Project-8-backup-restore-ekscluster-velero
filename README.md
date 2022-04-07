@@ -422,7 +422,7 @@ $ velero restore describe ghost-restore
 Lastly, retrieve the URL of the **LoadBalancer** for the Ghost blog in the `Recovery` cluster:
 
 ```
-$ ubectl -n ghost get svc ghost
+$ kubectl -n ghost get svc ghost
 ```
 
 ![](./images/svc.png)
